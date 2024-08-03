@@ -2,7 +2,7 @@
 
 Este proyecto es mi participación en el [hackatón de midudev](https://github.com/midudev/hackaton-vercel-2024).
 
-Mi objetivo con esta aplicación es que descubras nuevas series y películas con facilidad. Solo ingresa el nombre de una película y recibe recomendaciones personalizadas para tu próxima maratón. ¡Explora más y encuentra tu próxima obsesión cinematográfica!
+El objetivo de esta aplicación es que descubras nuevas series y películas con facilidad. Solo ingresa el nombre de una película y recibe recomendaciones personalizadas para tu próxima maratón. ¡Explora más y encuentra tu próxima obsesión cinematográfica!
 
 Este proyecto esta creado con nextjs y está utilizando [Vercel AI SDK](https://sdk.vercel.ai/) para conectarse con Gemini.
 
