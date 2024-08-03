@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI movie recommendations
 
-## Getting Started
+Este proyecto es mi participación en el [hackatón de midudev](https://github.com/midudev/hackaton-vercel-2024).
 
-First, run the development server:
+Mi objetivo con esta aplicación es que descubras nuevas series y películas con facilidad. Solo ingresa el nombre de una película y recibe recomendaciones personalizadas para tu próxima maratón. ¡Explora más y encuentra tu próxima obsesión cinematográfica!
+
+Este proyecto esta creado con nextjs y está utilizando [Vercel AI SDK](https://sdk.vercel.ai/) para conectarse con Gemini.
+
+Puedes ver la aplicación [aquí](https://ai-movie-recommendations-q.vercel.app/).
+
+## How to use
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/LuisQuiiroz/ai-movie-recommendations.git
+
+# Install dependencies
+$ pnpm install
+
+## Add Environment Variables
+GOOGLE_GENERATIVE_AI_API_KEY=your-api-key
+OMDB_API_KEY=your-api-key 
+
+# Run the app
+$ pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Get gemini api key](https://ai.google.dev/gemini-api/docs/api-key?hl=es-419)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Get omdb api key](https://www.omdbapi.com/apikey.aspx)
 
-## Learn More
+## Views
 
-To learn more about Next.js, take a look at the following resources:
+### Home
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/40f242ff-6407-4929-a3e1-2a6a6327770d)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Searching for a movie
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/3cbf6097-5b54-4577-b127-fd8a3a00e785)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Recommendations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/user-attachments/assets/206881d6-a16b-45a9-b723-227bb7d07eed)
+
+## Built With
+
+- [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Next.js](https://nextjs.org/)
+- [Vercel AI SDK](https://sdk.vercel.ai/)
+
+## Contact
+
+- GitHub [LuisQuiiroz](https://github.com/LuisQuiiroz)
+- LinkedIn [LuisQuiiroz](https://www.linkedin.com/in/luis-quiiroz/)
+- Twitter [Luis_Quiiroz](https://twitter.com/Luis_Quiiroz)
